@@ -930,6 +930,19 @@ header.header .logo-img {
     box-shadow: var(--shadow-lg);
 }
 
+.iframe-form-wrapper {
+    width: 100%;
+    min-height: 600px;
+    margin-top: 20px;
+}
+
+.iframe-form-wrapper iframe {
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    border-radius: 3px;
+}
+
 .form-header {
     text-align: center;
     margin-bottom: 40px;
@@ -1321,5 +1334,13 @@ html {
 
     .form-container {
         padding: 40px 25px;
+    }
+
+    .iframe-form-wrapper {
+        min-height: 500px;
+    }
+
+    .iframe-form-wrapper iframe {
+        min-height: 500px;
     }
 }
